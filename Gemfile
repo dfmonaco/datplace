@@ -28,6 +28,8 @@ gem 'spring',        group: :development
 
 gem 'haml'
 gem 'bootstrap-sass'
+gem 'rails_12factor', group: :production
+gem 'pg'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
