@@ -14,3 +14,14 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require_self
+
+$(document).ready(function () {
+	$("#si").click(function () {
+		function validateEmail(email) 
+		{
+		    var re = /\S+@\S+\.\S+/;
+		    return re.test(email);
+		}
+	});
+})

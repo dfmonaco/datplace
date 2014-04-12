@@ -1,8 +1,8 @@
 .container
-.jumbotron
+  =image_tag('DP-Text.png')
   %h1 ¿Te gustaría...
-  %p.lead ... ir a un lugar que no sabías que existe pero que te encantaría?
-  %p
-    %a.btn.btn-lg.btn-success{href: "#", role: "button"} Si me gustaría
-  %p
-    %button.btn.btn-sm.btn-default{type: "button"} No, pero gracias
+  %p.lead ... ir a un lugar que no sabías que existe pero que te encantaría conocer?
+  %form.form-inline{role: "form"}
+    .form-group
+      %input#exampleInputEmail2.form-input{placeholder: "Dejanos tu email y te contamos", type: "email"}/
+    %button#si.btn.btn-primary.inline{type: "submit"} Sí, me gustaría
